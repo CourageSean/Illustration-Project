@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather";
+}
+/*================== Global Styles ====================*/
+body section article h2 {
+  font-size: 2.5rem;
+}
+
+body section article p {
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+
+/* ================== Nav-sytling ================*/
+body section nav ul li {
+  font-size: 0.8rem;
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  text-align: right;
+  padding-right: 2%;
+}
+
+body section nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+body section nav ul {
+  text-align: right;
+}
+
+/*=================== Article- styling ==============*/
+
+body section article:nth-of-type(1) {
+  background-image: url(../images/illustration1.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+}
+
+body section article:nth-of-type(1) div {
+  padding-left: 10%;
+  font-size: 1.2rem;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
+/*~~~~~~~ buttons ~~~~~~~*/
+
+#btn-1 {
+  font-family: "Merriweather";
+  font-size: 0.8rem;
+  background-color: #202020;
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+  border: none;
+  margin-right: 3px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#btn-2 {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: "Merriweather";
+  color: #000;
+  font-size: 0.8rem;
+  background-color: #fff;
+  padding: 10px 15px;
+  border: none;
+  box-shadow: 5px 2px 15px -3px grey;
+  border-radius: 4px;
+  text-decoration: none;
+}
+/*~~~~~~~~~~~~~2nd-article  ~~~~~~~~~~~~~~~~*/
+
+body section article:nth-of-type(2) {
+  background-image: url(../images/illustration2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+}
+
+body section article:nth-of-type(2) div {
+  padding-right: 10%;
+  font-size: 1.2rem;
+  text-align: right;
+  direction: rtl;
+
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+body section article:nth-of-type(2) div h2:nth-of-type(2) {
+  text-indent: 5.1%;
+}
+
+body section article:nth-of-type(2) div p:nth-of-type(1) {
+  text-indent: 3.5%;
+}
+body section article:nth-of-type(2) div p:nth-of-type(2) {
+  text-indent: 3.2%;
+}
+body section article:nth-of-type(2) div p:nth-of-type(3) {
+  text-indent: 5.2%;
+}
+body section article:nth-of-type(2) div p:nth-of-type(4) {
+  text-indent: 5.4%;
+}
+/*~~~~~~~~~~~~~~~ 3rd- article ~~~~~~~~~~*/
+
+body section article:nth-of-type(3) {
+  background-image: url(../images/illustration3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+}
+
+body section article:nth-of-type(3) div {
+  padding-left: 5%;
+  font-size: 1.2rem;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+/*~~~~~~~~~~ 4th- article ~~~~~~~~*/
+
+body section article:nth-of-type(4) div:nth-of-type(1) {
+  text-align: center;
+  padding-top: 220px;
+}
+
+body section article:nth-of-type(4) div:nth-of-type(2) {
+  text-align: center;
+  padding-top: 50px;
+}
+/*------img------*/
+body section article:nth-of-type(4) div:nth-of-type(2) img {
+  width: 386px;
+  height: 280px;
+}
+
+/*~~~~~~~~~~ 5th- article ~~~~~~~~*/
+
+body section article:nth-of-type(5) div {
+  text-align: center;
+}
+
+body section article:nth-of-type(5) div:nth-of-type(1) {
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+/*-----img----*/
+
+body section article:nth-of-type(5) img {
+  width: 520px;
+  height: 292.5px;
+  margin: 50px;
+}
+
+/*~~~~~~~~~~ 6th- article ~~~~~~~~*/
+
+body section article:nth-of-type(6) div:nth-of-type(1) {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 35px;
+}
+
+body section article:nth-of-type(6) div:nth-of-type(2) {
+  margin: auto;
+  padding: 50px;
+  background-color: #f5fbfe;
+  width: 15%;
+  border: grey 1px;
+  border-radius: 4px;
+}
+
+body section article:nth-of-type(6) div:nth-of-type(2) p {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+
+body section article:nth-of-type(6) div:nth-of-type(2) p:nth-of-type(1) {
+  padding-bottom: 20px;
+  color: #524f4f;
+  font-weight: 600;
+}
+
+body section article:nth-of-type(6) div:nth-of-type(2) h3 + h2 {
+  text-align: center;
+}
+
+body section article:nth-of-type(6) div:nth-of-type(2) h2 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#btn-3 {
+  display: block;
+  font-size: 0.8rem;
+  width: 150px;
+  margin: auto;
+  background-color: #24bff2;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+body section article:nth-of-type(6) > h2 {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+/*================ Footer- styling ==============*/
+footer {
+  text-align: center;
+  line-height: 50px;
+}
+footer ul {
+  list-style: none;
+}
+
+footer ul li:nth-of-type(1) {
+  color: grey;
+}
+
+footer ul li:nth-of-type(2) a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer ul li:nth-of-type(3) {
+  color: grey;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+#fb {
+  color: #3b5998;
+  font-size: 2rem;
+}
+
+#ig {
+  color: #fcaf45;
+  font-size: 2rem;
+}
+
+#tw {
+  color: #55acee;
+  font-size: 2rem;
+}
+#yt {
+  color: #c4302b;
+  font-size: 2rem;
+}
+
+footer div {
+  padding-left: 2%;
+}
+
+/*================= Hover- effects ==============*/
+body section nav ul li a:hover {
+  text-decoration: underline;
+}
+
+body section article:nth-of-type(4) div:nth-of-type(2) img:hover {
+  box-shadow: 0px 2px 15px -3px grey;
+}
+
+body section article:nth-of-type(5) img:hover {
+  box-shadow: 0px 2px 15px -3px grey;
+}
+
+/*================ (Dark & Light) Mode Buttons  =========================*/
+
+#special {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #111;
+  text-transform: uppercase;
+  color: rgb(65, 60, 60);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#special::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 12px);
+  background: #fff;
+  transition: 0.4s ease-in-out;
+  transform: scaleY(1);
+  transition-delay: 0.4s;
+}
+
+#special:hover::before {
+  transform: scaleY(0);
+}
+
+/*====after ====*/
+
+#special::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% - 12px);
+  background: #fff;
+  transition: 0.4s ease-in-out;
+  transform: scaleX(1);
+}
+
+#special:hover::after {
+  transform: scaleX(0);
+}
+
+#special span {
+  position: relative;
+  z-index: 3;
+}
+
+/*=================  Dark Mode Button =======================*/
+
+#special2 {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid grey;
+  top: 40px;
+  left: 10px;
+  text-transform: uppercase;
+  color: grey;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#special2::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 12px);
+  background: #fff;
+  transition: 0.4s ease-in-out;
+  transform: scaleY(1);
+  transition-delay: 0.4s;
+}
+
+#special2:hover::before {
+  transform: scaleY(0);
+}
+
+/*==== after ====*/
+
+#special2::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% - 12px);
+  background: #202020;
+  transition: 0.4s ease-in-out;
+  transform: scaleX(1);
+}
+
+#special2:hover::after {
+  transform: scaleX(0);
+}
+
+#special2 span {
+  position: relative;
+  z-index: 3;
+}
